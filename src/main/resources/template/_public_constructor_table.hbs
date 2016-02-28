@@ -1,0 +1,14 @@
+{{#if hasPublicConstructor}}
+  <table border="1" cellspacing="0" cellpadding="0" class="summary" data-ice="summary">
+    <thead>
+    <tr>
+      <td colspan="3">Public Constructors</td>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each publicConstructorList}}
+      {{> _constructor_table_row}}
+    {{/each}}
+    </tbody>
+  </table>
+{{/if}}

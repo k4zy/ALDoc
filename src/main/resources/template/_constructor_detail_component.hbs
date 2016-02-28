@@ -1,0 +1,21 @@
+<div class="method-box">
+  <h4 id="{{name}}" class="method-title">{{accessLevel}} {{name}} {{> _method_params_declaration}}</h4>
+  <div class="method-detail">
+    <div class="method-detail-summary">
+      {{summary}}
+    </div>
+    <h5 class="tag-title">Parameters</h5>
+    <div class="parameters">
+      <table>
+        <tbody>
+        {{#each params}}
+          <tr>
+            <td>{{name}}</td>
+            <td>{{comment}}</td>
+          </tr>
+        {{/each}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

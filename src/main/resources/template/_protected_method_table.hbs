@@ -1,0 +1,14 @@
+{{#if hasProtectedMethod}}
+  <table border="1" cellspacing="0" cellpadding="0" class="summary" data-ice="summary">
+    <thead>
+    <tr>
+      <td colspan="3">Protected Method</td>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each protectedMethodList}}
+      {{> _method_table_row}}
+    {{/each}}
+    </tbody>
+  </table>
+{{/if}}

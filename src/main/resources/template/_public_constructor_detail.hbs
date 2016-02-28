@@ -1,0 +1,6 @@
+{{#if hasPublicConstructor}}
+  <h2>Public Constructors</h2>
+  {{#each publicConstructorList}}
+    {{> _constructor_detail_component}}
+  {{/each}}
+{{/if}}

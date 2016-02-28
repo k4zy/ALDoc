@@ -1,0 +1,6 @@
+{{#if hasProtectedMethod}}
+  <h2>Protected Methods</h2>
+  {{#each protectedMethodList}}
+    {{> _method_detail_component}}
+  {{/each}}
+{{/if}}

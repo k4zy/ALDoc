@@ -1,0 +1,6 @@
+{{#if hasPublicMethod}}
+  <h2>Public Methods</h2>
+  {{#each publicMethodList}}
+    {{> _method_detail_component}}
+  {{/each}}
+{{/if}}

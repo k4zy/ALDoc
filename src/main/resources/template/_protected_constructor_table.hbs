@@ -1,0 +1,14 @@
+{{#if hasProtectedConstructor}}
+  <table border="1" cellspacing="0" cellpadding="0" class="summary" data-ice="summary">
+    <thead>
+    <tr>
+      <td colspan="3">Protected Constructors</td>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each protectedConstructorList}}
+      {{> _constructor_table_row}}
+    {{/each}}
+    </tbody>
+  </table>
+{{/if}}
