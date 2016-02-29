@@ -167,6 +167,7 @@ h5.tag-title {
   font-size: 1em; }
 
 td.return-type {
+  width: 70px;
   text-align: right; }
 
 .parameters td {
@@ -187,5 +188,10 @@ td.return-type {
 
 .method-detail {
   margin: 0 0 1em 1em; }
+
+.constructor_left_row {
+  width: 30px;
+  padding: 0px;
+}
 
 /*# sourceMappingURL=class.css.map */
