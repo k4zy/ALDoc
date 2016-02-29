@@ -120,6 +120,7 @@ header {
   line-height: 19px; }
 
 .navigation {
+  position: fixed;
   padding: 0px 10px 28px 10px;
   width: 395px; }
   .navigation a {
@@ -153,6 +154,7 @@ header {
 
 /* class content */
 .contents {
+  margin-left: 415px;
   flex: 1;
   padding: 0 10px; }
   .contents > h1 {
