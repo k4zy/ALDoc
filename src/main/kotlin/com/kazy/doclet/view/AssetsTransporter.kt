@@ -6,6 +6,7 @@ import java.io.File
 object AssetsTransporter {
     fun copy() {
         val filePath = arrayOf(
+                "image/android.png",
                 "css/class.css",
                 "css/perfect-scrollbar.css",
                 "css/prettify.css",
