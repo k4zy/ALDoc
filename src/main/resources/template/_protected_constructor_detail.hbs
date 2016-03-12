@@ -1,6 +1,6 @@
-<h2>Protected Constructors</h2>
-{{#each constructorInfoList}}
-  {{#if isProtected}}
+{{#if hasProtectedConstructor}}
+  <h2>Protected Constructors</h2>
+  {{#each constructorInfoList}}
     {{> _constructor_detail_component}}
-  {{/if}}
-{{/each}}
+  {{/each}}
+{{/if}}
